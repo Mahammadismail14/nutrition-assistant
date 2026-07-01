@@ -1,0 +1,14 @@
+{
+  "name": "nutrition-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run start --prefix backend",
+    "start:prod": "npm run build && npm run start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
