@@ -1,5 +1,5 @@
 # Nutrition Assistant
-
+JWT authentication + Meal planning + Calorie tracking API 
 Nutrition Assistant is a compact MERN-style wellness dashboard for coaching clients through nutrition planning and progress tracking. The app combines an Express API with a React frontend to support authentication, client management, meal plans, and progress insights.
 
 ## Features
